@@ -1,0 +1,124 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: Arial, sans-serif; 
+}
+
+body { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    background: #f4f4f4; 
+}
+
+.container { 
+    background: #fff; 
+    padding: 2rem; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+    width: 100%; 
+    max-width: 450px; 
+}
+
+h1 { 
+    text-align: center; 
+    margin-bottom: 1rem; 
+}
+
+form { 
+    display: flex; 
+    gap: 0.5rem; 
+    margin-bottom: 1rem; 
+}
+
+input, select { 
+    padding: 0.5rem; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+button { 
+    padding: 0.5rem 1rem; 
+    border: none; 
+    background: #333; 
+    color: #fff; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: 0.3s; 
+}
+
+button:hover { 
+    background: #555; 
+}
+
+.filters { 
+    display: flex; 
+    gap: 0.5rem; 
+    justify-content: center; 
+    margin-bottom: 1rem; 
+}
+
+.filters button.active { 
+    background: #007BFF; 
+}
+
+ul { 
+    list-style: none; 
+    padding: 0; 
+}
+
+li { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0.5rem; 
+    border-bottom: 1px solid #eee; 
+    transition: all 0.3s; 
+}
+
+li.completed { 
+    text-decoration: line-through; 
+    color: #888; 
+    background: #f0f0f0; 
+}
+
+.delete-btn { 
+    background: red; 
+    color: #fff; 
+    border: none; 
+    padding: 0.2rem 0.5rem; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: 0.2s; 
+}
+
+.delete-btn:hover { 
+    background: darkred; 
+}
+
+.priority { 
+    font-size: 0.8rem; 
+    padding: 0.2rem 0.5rem; 
+    border-radius: 5px; 
+    color: #fff; 
+}
+
+.priority.Alta { 
+    background: #e74c3c; 
+}
+
+.priority.Média { 
+    background: #f39c12; 
+}
+
+.priority.Baixa { 
+    background: #2ecc71; 
+}
+
+#todo-count { 
+    text-align: center; 
+    margin-top: 1rem; 
+    font-weight: bold; 
+}

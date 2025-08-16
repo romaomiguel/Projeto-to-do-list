@@ -1,0 +1,35 @@
+# To-Do List Avançada
+
+Uma aplicação web simples para gerenciamento de tarefas (To-Do List) com prioridades e filtros. Este projeto foi desenvolvido utilizando **HTML**, **CSS** e **JavaScript** puro.
+
+---
+
+## Funcionalidades
+
+- Adicionar tarefas com título e prioridade (Alta, Média, Baixa)
+- Marcar tarefas como concluídas
+- Remover tarefas
+- Filtrar tarefas por:
+  - Todas
+  - Pendentes
+  - Concluídas
+- Contador de tarefas
+
+---
+
+## Tecnologias Utilizadas
+
+- **HTML5**: Estrutura do projeto
+- **CSS3**: Estilização e responsividade
+- **JavaScript**: Funcionalidades dinâmicas (adicionar, remover, filtrar tarefas)
+
+---
+## Como Usar
+
+1. Clone este repositório ou faça o download dos arquivos.
+2. Abra o arquivo `index.html` no seu navegador.
+3. Adicione suas tarefas utilizando o campo de entrada e selecione a prioridade.
+4. Use os filtros para visualizar tarefas pendentes, concluídas ou todas.
+5. Clique no botão de deletar para remover tarefas indesejadas.
+
+---
